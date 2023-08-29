@@ -6,5 +6,9 @@ function MyAPP(){
     <h1>HEllo</h1>
   );
 }
+document.render(
 
-document.getElementById
+<MyAPP/>
+
+);
+document.getElementById('root');
