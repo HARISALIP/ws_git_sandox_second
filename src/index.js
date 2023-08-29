@@ -1,13 +1,10 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from 'react';
+import reactDom from 'react-dom';
 
-import App from "./App";
+function MyAPP(){
+  return(
+    <h1>HEllo</h1>
+  );
+}
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
-);
+document.getElementById
